@@ -1,5 +1,9 @@
-# Divisão de Tarefas
+# Web site de divulgação de trabalhos remotos.
 
--Java Script
--Css
--HTML 5
+
+### Tarefas:
+- Dividir para conquistar;
+
+- [X] Menus com rolamentos de opções do Header;
+- [X] Criar sections que sejam ultilizadas na responsividade;
+- [X] Criar rodapé
