@@ -1,6 +1,18 @@
-.btn-login{
-    border: none;
+.titulo{
+    font-size:75px;
 }
-.g-col-6{
-    color:black;
+.paragrafo{
+    margin: 1.5em 0;
+    font-size: 20px;
+    color: cadetblue;
+}
+.btn-texto{
+    border: 1px solid transparent;
+    border-radius:0.35rem;
+    color: aliceblue;
+    background: #000;
+    font-weight: 700;
+    margin: 1.5em 0;
+    padding: 0.65rem 1.2rem;
+
 }
