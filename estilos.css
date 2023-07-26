@@ -1,10 +1,5 @@
 .titulo{
-    font-size:75px;
-}
-.paragrafo{
-    margin: 1.5em 0;
-    font-size: 20px;
-    color: cadetblue;
+    font-size: 72px;
 }
 .btn-texto{
     border: 1px solid transparent;
@@ -24,18 +19,42 @@
     margin: 3em 0;
 }
 
-@media screen and (min-width:375px){
-    .container-texto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+@media (min-width: 768px) and (max-width: 979px) {
+    .titulo{
+        font-size:15px;
+        font-weight: 700
     }
- 
-    .container-icons{
-      display: flex;
-      flex-direction: row;
-  
-    }
+}
 
-    
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .titulo{
+        font-size:25px;
+        font-weight: 700
+    }
+    .paragrafo{
+        text-align: center;
+        padding: 1em;
+    }
+    .icons-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5em
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .titulo{
+        font-size:35px;
+        font-weight: 700;
+    }
+    .paragrafo{
+        text-align: center;
+        padding: 1em;
+    }
+    .btn-texto{
+        margin:0 0 2em 0;
+    }
 }
