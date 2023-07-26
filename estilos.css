@@ -14,5 +14,28 @@
     font-weight: 700;
     margin: 1.5em 0;
     padding: 0.65rem 1.2rem;
+}
+.btn-texto:hover{
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+.img-homem{
+    margin: 3em 0;
+}
 
+@media screen and (min-width:375px){
+    .container-texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .container-icons{
+      display: flex;
+      flex-direction: row;
+  
+    }
+
+    
 }
